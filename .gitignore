@@ -4,8 +4,6 @@ media/train
 media/test
 media/uploaded-images
 venv
-*/migrations
 *.zip
 *.bin
 LOG*
-db.sqlite3
