@@ -41,4 +41,4 @@ if [[ "$1" == "reset-db" ]]; then
   sh reset_db.sh
 fi 
 
-python manage.py runserver 0.0.0.0:8000
+# python manage.py runserver 0.0.0.0:8000
