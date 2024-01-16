@@ -36,8 +36,8 @@ fi
 
 # Run Django commands
 if [[ "$1" == "reset-db" ]]; then
-  python prep_db.py
   python manage.py makemigrations
+  python manage.py migrate
   sh reset_db.sh
 fi 
 
