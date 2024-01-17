@@ -166,7 +166,7 @@
 
 .desktop .frame-5 {
   flex: 1 1 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   position: relative;
   align-self: stretch;
   display: grid;
