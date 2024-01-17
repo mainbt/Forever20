@@ -1,7 +1,4 @@
-Django==5.0
-fashion-clip
-faiss-cpu
-djangorestframework
-numpy
-pandas
-gdown
+Django==4.2.9
+fashion-clip==0.2.2
+faiss-cpu==1.7.4
+gdown==4.7.3

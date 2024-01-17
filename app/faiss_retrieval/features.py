@@ -1,4 +1,3 @@
-import numpy as np
 from fashion_clip.fashion_clip import FashionCLIP
 
 
