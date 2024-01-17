@@ -1,6 +1,4 @@
 import numpy as np
-import torch
-import torchvision.transforms as transforms
 from fashion_clip.fashion_clip import FashionCLIP
 
 

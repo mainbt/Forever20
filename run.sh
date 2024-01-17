@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# # Create virtual environment and activate it
-# python -m venv venv
-# source venv/Scripts/activate
+# Create virtual environment and activate it
+python -m venv venv
+source venv/Scripts/activate
 
-# # Install requirements
-# pip install -r requirements.txt
+# Install requirements
+pip install -r requirements.txt
 
 # Check for fclip file and download if missing
 if [[ ! -f app/faiss_retrieval/indexes/fclip_B32_full_index.bin ]]; then
@@ -41,4 +41,4 @@ if [[ "$1" == "reset-db" ]]; then
   sh reset_db.sh
 fi 
 
-# python manage.py runserver 0.0.0.0:8000
+python manage.py runserver

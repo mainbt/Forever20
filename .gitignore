@@ -5,5 +5,4 @@ media/test
 media/uploaded-images
 venv
 *.zip
-*.bin
 LOG*

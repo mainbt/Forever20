@@ -11,7 +11,7 @@ if __name__ == '__main__':
         for row in reader:
             # Extract category and gender from filename
             _, gender, category, _ = path_pattern.search(row['Filename']).groups()
-
+            
             # Create and save model instance
             with transaction.atomic():
                 model_instance = DatabaseImage.objects.create(

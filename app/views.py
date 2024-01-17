@@ -45,7 +45,7 @@ def image_search_result(request, pk):
             query_image = UploadImage.objects.get(id=pk)
             # Load the FAISS index
             index_path = os.path.join(
-                CURRENT_DIR, "faiss_retrieval/indexes/fclip_B32_full_index.bin"
+                CURRENT_DIR, "faiss_retrieval/indexes/fclip_B32_demo_index.bin"
             )
             index = load_index(index_path)
             # Extract features from the query image
@@ -102,7 +102,7 @@ def text_search_result(request):
             query_text = request.POST.get("query-text")
             # Load the FAISS index
             index_path = os.path.join(
-                CURRENT_DIR, "faiss_retrieval/indexes/fclip_B32_full_index.bin"
+                CURRENT_DIR, "faiss_retrieval/indexes/fclip_B32_demo_index.bin"
             )
             index = load_index(index_path)
             # Extract features from the query text -----------------------

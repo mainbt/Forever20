@@ -1,7 +1,5 @@
 Django==5.0
 fashion-clip
-torch 
-torchvision 
 faiss-cpu
 djangorestframework
 numpy
